@@ -1,0 +1,11 @@
+<h1>{{titulo}}</h1>
+
+
+<div *ngFor="let item of productos" class="listadoProductos">
+  <mat-card>
+    <mat-card-title>{{item.nombre}}</mat-card-title>
+    <mat-card-subtitle>{{item.valor | currency:'CAD':'symbol-narrow':'4.0-0'}}</mat-card-subtitle>
+    <mat-card-content>{{ item.contenido }}</mat-card-content>
+  </mat-card>
+</div>
+

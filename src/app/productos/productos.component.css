@@ -1,0 +1,13 @@
+.listadoProductos {
+  margin-bottom: 10px;
+
+}
+
+.listadoProductos mat-card {
+  background-color: #b4d6f8;
+  max-width: 400px;
+}
+
+.listadoProductos:hover {
+  transform: translateY(-1rem) rotate(5deg);
+}
